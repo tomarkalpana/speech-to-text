@@ -1,0 +1,65 @@
+* {
+    margin : 0;
+    padding : 0;
+    background-color: #aad4f5 ;
+}
+
+h1 {
+    text-align : center;
+    margin-top : 30px;
+}
+
+.output-box textarea {
+    height : 500px;
+    width : 800px;
+    display: block;
+    margin: 0px auto;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+.actions {
+    display : flex;
+    justify-content: space-between;
+    gap: 10px;
+    align-items: center; 
+    width: 800px;   
+    margin: 5px auto 0;
+}
+
+#startBtn{
+    height: 85px;
+    width: 85px;
+    border-radius: 50%;
+    background: red;
+    font-size: 15px;
+    border: 2px black solid;
+    margin-top: 10px;
+}
+
+#copyBtn, #clearBtn{
+    background-color: #1abc9c;
+    color: black;
+    border-radius: 10px;
+    padding: 5px 10px;   /* top/bottom 12px, left/right 24px */
+    font-size: 18px;
+    position: relative;
+    top: -20px;
+}
+
+#copyBtn:hover, #clearBtn:hover {
+    background-color: #3ba99c;  
+    cursor: pointer;
+}
+
+#startBtn:hover {
+    /*background-color: darkred;
+    color: white; */
+    cursor: pointer;
+}
+
+#startBtn, #copyBtn, #clearBtn {
+    box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
