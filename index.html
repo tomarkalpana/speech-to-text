@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Speech to Text</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <div class="container">
+    <h1>Speech-to-Text Converter</h1>
+
+    <div class="status" id="status">
+      <!-- e.g. "Listening..." / "Idle" -->
+    </div>
+
+    <div class="output-box">
+      <textarea id="transcriptText"></textarea>
+    </div>
+
+    <div class="actions">
+      <button id="copyBtn">Clear Text</button>
+      <button id="startBtn">Start Recording</button>
+      <button id="clearBtn">Copy Text</button>
+    </div>
+
+    <div class="error-message" id="errorMsg">
+      <!-- error handling messages go here -->
+    </div>
+  </div>
+   
+  <script src="script.js"></script>
+</body>
+</html>
